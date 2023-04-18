@@ -60,13 +60,18 @@
               <li ><a href="/profile">Profile</a></li>
               <li ><a href="/logout">Logout</a></li>
             <% }else{ %>
-              <li ><a href="/login">Login</a></li>
+              <li style="font-family: Raleway, sans-serif; color:#002c50; font: size 18px;" ><a href="/login">Inicio</a></li>
+              <li ><a href="/login">Catálogo</a></li>
+              <li ><a href="/login">Proyectos educativos</a></li>
+              <li ><a href="/login">Tienda Licencias</a></li>
+              <li ><a href="/login">Área Privada</a></li>
+              <li ><a href="/login">Contacta</a></li>
             <% } %>
           </ul>
           
             <% if(user !== null){ %>
               <ul class="nav navbar-nav">
-                <li style="color:white">
+                <li>
                   <a href="/profile">Hi <b><%=user.nickname%></b>!</a>
                 </li>
               </ul>
