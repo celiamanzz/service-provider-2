@@ -26,23 +26,26 @@
   <style>
     .nav{
       background-color:white;
-      font-family: "RalewayBold", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 18px;
       color: #002C50;
-      ;
+      font-weight: bold;
+
     }
     .navbar-right{
       background-color:white;
-      font-family: "RalewayBold", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 18px;
       color: #002C50;
+      font-weight: bold;
       
     }
     .navbar-nav{
       background-color:white;
-      font-family: "RalewayBold", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 18px;
       color: #002C50;
+      font-weight: bold;
       
     }
     
@@ -62,10 +65,10 @@
             <img src="/images/editorial-bruno.png" style="height: 35px;"/>
           </a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse" style="font-family: RalewayBold, sans-serif; font: size 18px; background-color: white;">
+        <div id="navbar" class="collapse navbar-collapse" style="font-family: Roboto, sans-serif; font: size 18px; background-color: white;">
           <ul class="nav navbar-nav navbar-right" style="color:#002C50; padding-top:10px; ">
             <% if(user !== null){ %>
-              <li ><a href="/profile" style="color:#002C50; font-family:RalewayBold, sans-serif;">Profile</a></li>
+              <li ><a href="/profile" style="color:#002C50; font-family:Roboto, sans-serif;">Profile</a></li>
               <li ><a href="/logout" style="color:#002C50;">Logout</a></li>
             <% }else{ %>
               <li ><a href="/login" style="color:#002C50;">Inicio</a></li>
@@ -88,7 +91,7 @@
     </nav>
     <div class="container" role="main">
 <div class="page-header">
-  <img src="/images/banner.png"/>
+  <img src="/images/banner.png" style="max-width:800px;"/>
 </div>
 <% if(user != null) {%>
   <blockquote>
