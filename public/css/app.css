@@ -24,31 +24,36 @@ body {
 
 nav {
   background-color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #002c50;
+  font-weight: bold;
 }
 
 .navbar-form {
   background-color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #002c50;
+  font-weight: bold;
 }
 .navbar {
   background-color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #002c50;
+  font-weight: bold;
 }
 .navbar-default {
   background-color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #002c50;
+  font-weight: bold;
 }
 .navbar-fixed-top {
   background-color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
+  font-weight: bold;
 }
