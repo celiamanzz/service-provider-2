@@ -27,6 +27,12 @@
     <![endif]-->
   </head>
   <style>
+    nav {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #002c50;
+}
     .navbar-form {
       background-color:white;
       font-family: "Raleway", sans-serif;
@@ -67,25 +73,12 @@
 
   <body role="document">
 
-    <nav class="navbar navbar-default navbar-form navbar-fixed-top" style="background-color: white; ">
-      <div class="container">
-        <div class="navbar-header"  >
-          <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button> -->
-          <a class="navbar-brand" href="/" style=" background-color:white; height:83px;">
-            <img src="/images/editorial-bruno.png" style="height: 83px; width:auto"/>
-          </a>
-          
-        </div>
-        <div id="navbar" class="collapse navbar-collapse" style="font-family: Raleway, sans-serif; color:#002c50; font: size 18px; background-color: white;">
-          
-          <ul class="nav navbar-nav navbar-right">
-            <% if(user !== null){ %>
+    <header>
+  <a href="#">
+    <img src="/images/editorial-bruno.png" style="height: 83px; width:auto;">
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <% if(user !== null){ %>
               <li ><a href="/profile">Profile</a></li>
               <li ><a href="/logout">Logout</a></li>
             <% }else{ %>
@@ -96,21 +89,12 @@
               <li ><a href="/login">Área Privada</a></li>
               <li ><a href="/login">Contacta</a></li>
             <% } %>
-          </ul>
-          
-            <% if(user !== null){ %>
-              <ul class="nav navbar-nav">
-                <li>
-                  <a href="/profile">Hi <b><%=user.nickname%></b>!</a>
-                </li>
-              </ul>
-            <% } %>
-
-          
-        </div><!--/.nav-collapse -->
-      </div>
+      </ul>
     </nav>
+  </a>
+</header>
 
+   
     <div class="container" role="main">
 
 
