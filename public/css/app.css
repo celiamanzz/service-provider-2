@@ -31,3 +31,30 @@ nav {
 .navbar-brand img {
   height: 83px;
 }
+
+.navbar-form {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #002c50;
+  font-weight: bold;
+}
+.navbar {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #002c50;
+  font-weight: bold;
+}
+.navbar-default {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #002c50;
+  font-weight: bold;
+}
+.navbar-fixed-top {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
